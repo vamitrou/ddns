@@ -56,7 +56,7 @@ def update_record_set(client, zone, ip):
 
 
 def log(message):
-    print time.strftime('%d/%m/%y %H:%M:%S') + ': ' + message
+    print(time.strftime('%d/%m/%y %H:%M:%S') + ': ' + message)
 
 
 if __name__ == '__main__':
