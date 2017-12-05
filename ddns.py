@@ -7,7 +7,7 @@ import boto3
 import requests
 
 RECORD = 'box'
-DOMAIN = 'dot-cloud.de.'
+DOMAIN = 'mydomain.com.'
 
 
 def get_zone(client, domain):
